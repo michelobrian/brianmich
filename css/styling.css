@@ -1,0 +1,191 @@
+/* General Styles */
+header{
+font-family: Arial, sans-serif;
+padding-left: 1%;
+color: #ffffff;
+font-weight: bolder;
+font-size: xx-large;
+background-color: #2f4f4f;
+margin-top: -4%;
+}
+
+/* Side Navigation Bar */
+.sidebar {
+width: 130px;
+background-color: #333;
+height: 100vh; /* Full height */
+padding: 10px 0;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.sidebar ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.sidebar ul li {
+margin: 15px 0;
+}
+
+.sidebar ul li a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+padding: 10px 20px;
+display: block;
+}
+
+.sidebar ul li a:hover {
+background-color: #f4c10f;
+color: #333;
+}
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+color: #333;
+padding-left: 130px;
+}
+
+
+.welcome {
+text-align: justify;
+padding: 20px 20px;
+padding: 1.5%;
+background-color: rgb(234, 234, 234);
+}
+.section {
+padding: 50px 20px;
+text-align: justify;
+padding: 1
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+    color: #333
+}
+.courses :hover{
+    background-color: #f4c10f;
+}
+.courses li {
+    background-color: rgb(177, 180, 179);
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-justify: auto;
+}
+.footer {
+    list-style: none;
+    font-family: Cambria;
+    background-color: #2f4f4f;
+    padding: 2%;
+    max-height: 50%;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+#home {
+background-color: ;
+}
+
+#about {
+background-color: #e2e2e2;
+padding-right: 8%;
+}
+
+#contact {
+background-color: #f4f4f4;
+} 
+
+h3 {
+text-align: justify;
+padding-left: 0;
+}
+
+/* Form Styles */
+form {
+max-width: 500px;
+margin: 0 auto;
+text-align: left;
+}
+
+.regform p {
+    font-weight: 600;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button {
+background-color: #3d3b3b;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #f4c10f;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+nav ul {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+.regform {
+    padding: 20px 20px;
+    background-color: aliceblue;
+}
+.regform h2 {
+    text-align: justify;
+    font-weight: bold;
+}
+
+form {
+    text-align: left;
+}
+
+.back {
+    padding-left: 90%;
+    color: white;
+    text-decoration: none;
+    
+}

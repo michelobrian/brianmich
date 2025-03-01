@@ -194,3 +194,14 @@ form {
     text-decoration: none;
     
 }
+
+.proj-intro {
+    padding-top: 0.001%;
+    padding-left: 1%;
+    font-family: Arial;
+    background-color: darkgrey;
+    background-size: 10%;
+    height: 300px;
+    margin-top: -2%;
+    color: white;
+}
